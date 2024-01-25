@@ -8,7 +8,7 @@ spec:
   selector:
     matchlabels:
       env: production
-  replicas: 10
+  replicas: 16
   template:
     metadata:
       labels:
