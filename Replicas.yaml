@@ -8,11 +8,7 @@ spec:
   selector:
     matchlabels:
       env: production
-<<<<<<< HEAD
-  replicas: 6
-=======
   replicas: 10
->>>>>>> feature
   template:
     metadata:
       labels:
